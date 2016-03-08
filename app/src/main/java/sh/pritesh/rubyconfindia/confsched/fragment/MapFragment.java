@@ -46,7 +46,7 @@ import static sh.pritesh.rubyconfindia.confsched.fragment.MapFragmentPermissions
 @RuntimePermissions
 public class MapFragment extends BaseFragment {
 
-    public static final LatLng LAT_LNG_CENTER = new LatLng(35.604757, 139.683788);
+    public static final LatLng LAT_LNG_CENTER = new LatLng(9.9339781, 76.3145113);
     private static final int DEFAULT_ZOOM = 17;
 
     private FragmentMapBinding binding;

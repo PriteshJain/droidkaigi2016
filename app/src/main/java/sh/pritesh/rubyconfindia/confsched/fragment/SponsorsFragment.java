@@ -47,7 +47,7 @@ public class SponsorsFragment extends BaseFragment {
 
     private void initView() {
         Observable.from(Sponsor.createGoldList())
-                .forEach(sponsor -> addView(sponsor, binding.platinumContainer));
+                .forEach(sponsor -> addView(sponsor, binding.goldContainer));
         Observable.from(Sponsor.createSilverList())
                 .forEach(sponsor -> addView(sponsor, binding.silverContainer));
     }

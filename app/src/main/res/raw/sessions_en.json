@@ -32,7 +32,7 @@
     "speaker": {
       "id": 2,
       "name": "Prathamesh Sonpatki",
-      "image_url": "https://rubyconfindia.org/assets/images/speakers/prathmesh.jpeg",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/prathmesh.jpeg",
       "twitter_name": "_cha1tanya",
       "github_name": "_cha1tanya"
     },
@@ -54,11 +54,11 @@
   {
     "id": 3,
     "title": "Hidden features in Ruby you may not know about",
-    "description": "Keynote by Matz",
+    "description": "",
     "speaker": {
       "id": 3,
       "name": "Shobhit Srivastava",
-      "image_url": "https://pbs.twimg.com/profile_images/511244255294001152/i-G-x-Gw.jpeg",
+      "image_url": "",
       "twitter_name": "",
       "github_name": ""
     },

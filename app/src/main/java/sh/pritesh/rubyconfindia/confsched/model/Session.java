@@ -90,10 +90,6 @@ public class Session {
 
     public int getLanguageResId() {
         switch (languageId) {
-            case LocaleUtil.LANG_EN_ID:
-                return R.string.lang_en;
-            case LocaleUtil.LANG_JA_ID:
-                return R.string.lang_ja;
             default:
                 return R.string.lang_en;
         }

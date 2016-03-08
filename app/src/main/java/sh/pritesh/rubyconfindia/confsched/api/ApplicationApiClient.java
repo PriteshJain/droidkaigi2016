@@ -68,12 +68,6 @@ public class ApplicationApiClient {
 
     public Observable<List<Session>> getSessions(@NonNull String languageId) {
         switch (languageId) {
-            case LocaleUtil.LANG_JA_ID:
-                return service.getSessionsJa();
-            case LocaleUtil.LANG_AR_ID:
-                return service.getSessionsAr();
-            case LocaleUtil.LANG_KO_ID:
-                return service.getSessionsKo();
             case LocaleUtil.LANG_EN_ID:
                 return service.getSessionsEn();
             default:

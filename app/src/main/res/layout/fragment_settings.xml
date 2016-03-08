@@ -15,69 +15,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <RelativeLayout
-                android:id="@+id/language_settings_container"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/clickable"
-                android:padding="@dimen/spacing">
-
-                <TextView
-                    android:id="@+id/txt_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_toLeftOf="@+id/txt_language"
-                    android:layout_toStartOf="@+id/txt_language"
-                    android:ellipsize="end"
-                    android:lines="1"
-                    android:text="@string/settings_language"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/text" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/txt_title"
-                    android:layout_marginTop="@dimen/spacing_small"
-                    android:layout_toLeftOf="@+id/txt_language"
-                    android:layout_toStartOf="@+id/txt_language"
-                    android:ellipsize="end"
-                    android:lines="2"
-                    android:text="@string/settings_language_description"
-                    android:textColor="@color/grey600"
-                    android:textSize="@dimen/text_small" />
-
-                <TextView
-                    android:id="@+id/txt_language"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="@dimen/spacing"
-                    android:layout_marginStart="@dimen/spacing"
-                    android:background="@drawable/tag_language"
-                    android:paddingBottom="@dimen/spacing_xsmall"
-                    android:paddingEnd="@dimen/spacing_small"
-                    android:paddingLeft="@dimen/spacing_small"
-                    android:paddingRight="@dimen/spacing_small"
-                    android:paddingStart="@dimen/spacing_small"
-                    android:paddingTop="@dimen/spacing_xsmall"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/text" />
-
-            </RelativeLayout>
-
-            <View style="@style/Border" />
-
-            <sh.pritesh.rubyconfindia.confsched.widget.SettingSwitchRowView
-                android:id="@+id/local_time_switch_row"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:settingDescription="@string/settings_local_time_description"
-                app:settingTitle="@string/settings_local_time" />
-
-            <View style="@style/Border" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
