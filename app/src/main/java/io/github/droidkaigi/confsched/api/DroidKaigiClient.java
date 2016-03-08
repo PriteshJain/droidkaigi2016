@@ -29,7 +29,7 @@ import rx.Observable;
 @Singleton
 public class DroidKaigiClient {
 
-    private static final String SESSIONS_API_ROUTES = "/priteshjain/rubyconfindia2016/master/app/src/main/res/raw/";
+    private static final String SESSIONS_API_ROUTES = "/priteshjain/rubyconfindia2016/rubysessions/app/src/main/res/raw/";
 
     private final DroidKaigiService service;
     private final GoogleFormService googleFormService;

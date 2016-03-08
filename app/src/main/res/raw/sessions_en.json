@@ -24,5 +24,528 @@
     "slide_url": "",
     "movie_url": "",
     "share_url": ""
+  },
+  {
+    "id": 2,
+    "title": "Anatomy of constant lookup and autoloading in Rails",
+    "description": "Constant lookup and autoloading is one of those topics from the list of \"Look at all the things that I am not doing!\" that Rails takes care of for us.\n\n But how exactly it work? Are there any edge cases that one should know?\n\nIn this talk, I will discuss everything from constant lookup to how they are autoloaded by Rails. Bonus point - we will also see some of the edge cases of the autoloading feature, by dissecting the algorithm behind it.",
+    "speaker": {
+      "id": 2,
+      "name": "Prathamesh Sonpatki",
+      "image_url": "https://rubyconfindia.org/assets/images/speakers/prathmesh.jpeg",
+      "twitter_name": "_cha1tanya",
+      "github_name": "_cha1tanya"
+    },
+    "stime": "2016-03-19 10:00:00",
+    "etime": "2016-03-19 10:25:00",
+    "category": {
+      "id": 1,
+      "name": "Talk"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 3,
+    "title": "Hidden features in Ruby you may not know about",
+    "description": "Keynote by Matz",
+    "speaker": {
+      "id": 3,
+      "name": "Shobhit Srivastava",
+      "image_url": "https://pbs.twimg.com/profile_images/511244255294001152/i-G-x-Gw.jpeg",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 10:25:00",
+    "etime": "2016-03-19 11:10:00",
+    "category": {
+      "id": 1,
+      "name": "Talk"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 4,
+    "title": "Succession",
+    "description": "",
+    "speaker": {
+      "id": 4,
+      "name": "Katrina Owen",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 11:30:00",
+    "etime": "2016-03-19 11:55:00",
+    "category": {
+      "id": 1,
+      "name": "Talk"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 5,
+    "title": "CodeCuriosity - Making Open Source your Livelihood",
+    "description": "",
+    "speaker": {
+      "id": 5,
+      "name": "Sethupathi Asokan",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 11:55:00",
+    "etime": "2016-03-19 12:30:00",
+    "category": {
+      "id": 1,
+      "name": "Talk"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 6,
+    "title": "Ruby Alternatives",
+    "description": "The story for the future of parallelism in Ruby is looking pretty bleak. Matz just said at Euruko that it will be a while (years) before the notorious Global Interpreter Lock is gone.\n\nSo I've been on a journey to find a more modern replacement that gives me the same joy that I feel when I write Ruby. It turns out that with modern programming languages, it's actually not that hard to learn a new technology.\n\nI've found some great candidates in Go, Elixir and a newcomer Crystal. I'll dig in and show you some code and you can decide if maybe, you too, want to enter Parallel World with me!",
+    "speaker": {
+      "id": 5,
+      "name": "Aaron Cruz",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/aaron-cruz.jpg",
+      "twitter_name": "mraaroncruz",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 13:30:00",
+    "etime": "2016-03-19 13:55:00",
+    "category": {
+      "id": 1,
+      "name": "Talk"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 7,
+    "title": "Closer look at method / variable scopes in Ruby",
+    "description": "",
+    "speaker": {
+      "id": 6,
+      "name": "Sumit Mahamuni",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 13:55:00",
+    "etime": "2016-03-19 14:20:00",
+    "category": {
+      "id": 1,
+      "name": "Talk"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 8,
+    "title": "Let's Go with Ruby",
+    "description": "",
+    "speaker": {
+      "id": 8,
+      "name": "Sumit Das and Shishir Joshi",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 14:20:00",
+    "etime": "2016-03-19 14:45:00",
+    "category": {
+      "id": 1,
+      "name": "Talk"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 9,
+    "title": "Ruby Hero Award and Sponsors time",
+    "description": "",
+    "speaker": {
+      "id": 9,
+      "name": "RubyConfIndia",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 15:05:00",
+    "etime": "2016-03-19 15:25:00",
+    "category": {
+      "id": 1,
+      "name": "Events"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 10,
+    "title": "Databases: What We Can Learn From Other Languages",
+    "description": "",
+    "speaker": {
+      "id": 10,
+      "name": "Sean Griffin",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 15:25:00",
+    "etime": "2016-03-19 15:50:00",
+    "category": {
+      "id": 1,
+      "name": "Events"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 11,
+    "title": "Talk by Sarah Mei",
+    "description": "",
+    "speaker": {
+      "id": 11,
+      "name": "Sarah Mei",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 15:50:00",
+    "etime": "2016-03-19 16:35:00",
+    "category": {
+      "id": 1,
+      "name": "Keynote"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 12,
+    "title": "Lightning Talks",
+    "description": "Short talks by audience",
+    "speaker": {
+      "id": 12,
+      "name": "Audience",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-19 16:35:00",
+    "etime": "2016-03-19 17:00:00",
+    "category": {
+      "id": 1,
+      "name": "Ligntning Talks"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 13,
+    "title": "Keynote",
+    "description": "",
+    "speaker": {
+      "id": 13,
+      "name": "Laurent Sansonetti",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 09:45:00",
+    "etime": "2016-03-20 10:30:00",
+    "category": {
+      "id": 1,
+      "name": "keynote"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 14,
+    "title": "Streaming, Spark and Ruby",
+    "description": "",
+    "speaker": {
+      "id": 14,
+      "name": "Manohar Amrutkar",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 10:30:00",
+    "etime": "2016-03-20 10:55:00",
+    "category": {
+      "id": 1,
+      "name": "Keynote"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 15,
+    "title": "To fear or not to fear: That is the question",
+    "description": "To fear or not to fear: That is the question",
+    "speaker": {
+      "id": 15,
+      "name": "Anuja Ware and Shweta Kale",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 11:30:00",
+    "etime": "2016-03-20 11:55:00",
+    "category": {
+      "id": 1,
+      "name": "Talks"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
   }
+,
+  {
+    "id": 16,
+    "title": "Statically typed Ruby",
+    "description": "",
+    "speaker": {
+      "id": 16,
+      "name": "Vagmi Mudumbai",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 11:55:00",
+    "etime": "2016-03-20 12:20:00",
+    "category": {
+      "id": 1,
+      "name": "Talks"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  }
+,
+  {
+    "id": 17,
+    "title": "Functional Testing of Mobile Applications using Appium and Ruby",
+    "description": "",
+    "speaker": {
+      "id": 17,
+      "name": "Abhinandan Kothari and Chirag Aggarwal",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 13:30:00",
+    "etime": "2016-03-20 13:55:00",
+    "category": {
+      "id": 1,
+      "name": "Talks"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 18,
+    "title": "From Facepalm to Foolproof",
+    "description": "",
+    "speaker": {
+      "id": 18,
+      "name": "Jon McCartie",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 13:55:00",
+    "etime": "2016-03-20 14:20:00",
+    "category": {
+      "id": 1,
+      "name": "Talks"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 19,
+    "title": "A programmers guide to Music",
+    "description": "",
+    "speaker": {
+      "id": 19,
+      "name": "Rishi Jain",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 14:45:00",
+    "etime": "2016-03-20 13:10:00",
+    "category": {
+      "id": 1,
+      "name": "Talks"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 20,
+    "title": "Keynote by Charles Nutter",
+    "description": "",
+    "speaker": {
+      "id": 20,
+      "name": "Charles Nutter",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 14:45:00",
+    "etime": "2016-03-20 13:10:00",
+    "category": {
+      "id": 1,
+      "name": "Keynote"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  },
+  {
+    "id": 21,
+    "title": "Vote of Thanks",
+    "description": "",
+    "speaker": {
+      "id": 21,
+      "name": "RubyConfIndia",
+      "image_url": "",
+      "twitter_name": "",
+      "github_name": ""
+    },
+    "stime": "2016-03-20 15:55:00",
+    "etime": "2016-03-20 16:00:00",
+    "category": {
+      "id": 1,
+      "name": "Thanks"
+    },
+    "place": {
+      "id": 1,
+      "name": "Main Hall"
+    },
+    "language_id": "en",
+    "slide_url": "",
+    "movie_url": "",
+    "share_url": ""
+  }
+
 ]

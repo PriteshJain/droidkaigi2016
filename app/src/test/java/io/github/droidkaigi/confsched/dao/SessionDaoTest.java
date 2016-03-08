@@ -73,7 +73,7 @@ public class SessionDaoTest {
     private SessionDao sessionDao;
 
     List<Session> loadSessions() {
-        try (InputStream is = getContext().getResources().openRawResource(R.raw.sessions_ja)) {
+        try (InputStream is = getContext().getResources().openRawResource(R.raw.sessions_en)) {
             Gson gson = DroidKaigiClient.createGson();
             Type t = new TypeToken<Collection<Session>>() {
             }.getType();
