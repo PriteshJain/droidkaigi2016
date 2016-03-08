@@ -5,8 +5,8 @@
     "description": "Keynote by Matz",
     "speaker": {
       "id": 1,
-      "name": "Matz",
-      "image_url": "https://pbs.twimg.com/profile_images/511244255294001152/i-G-x-Gw.jpeg",
+      "name": "Yukihiro Matsumoto",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/matz.jpg",
       "twitter_name": "@yukihiro_matz",
       "github_name": "matz"
     },
@@ -84,8 +84,8 @@
     "speaker": {
       "id": 4,
       "name": "Katrina Owen",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/kytrinyx.jpg",
+      "twitter_name": "kytrinyx",
       "github_name": ""
     },
     "stime": "2016-03-19 11:30:00",
@@ -110,8 +110,8 @@
     "speaker": {
       "id": 5,
       "name": "Sethupathi Asokan",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/sethupati.jpg",
+      "twitter_name": "sethupathia",
       "github_name": ""
     },
     "stime": "2016-03-19 11:55:00",
@@ -136,7 +136,7 @@
     "speaker": {
       "id": 5,
       "name": "Aaron Cruz",
-      "image_url": "http://rubyconfindia.org/assets/images/speakers/aaron-cruz.jpg",
+      "image_url": "http://rubyconfindia.org/Abhinandan/images/speakers/aaron-cruz.jpg",
       "twitter_name": "mraaroncruz",
       "github_name": ""
     },
@@ -162,8 +162,8 @@
     "speaker": {
       "id": 6,
       "name": "Sumit Mahamuni",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/sumit.jpg",
+      "twitter_name": "meetmahamuni",
       "github_name": ""
     },
     "stime": "2016-03-19 13:55:00",
@@ -188,8 +188,8 @@
     "speaker": {
       "id": 8,
       "name": "Sumit Das and Shishir Joshi",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/shishir.jpg",
+      "twitter_name": "shishir127",
       "github_name": ""
     },
     "stime": "2016-03-19 14:20:00",
@@ -240,8 +240,8 @@
     "speaker": {
       "id": 10,
       "name": "Sean Griffin",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/sean.jpg",
+      "twitter_name": "sgrif",
       "github_name": ""
     },
     "stime": "2016-03-19 15:25:00",
@@ -266,8 +266,8 @@
     "speaker": {
       "id": 11,
       "name": "Sarah Mei",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/sarahmei.jpg",
+      "twitter_name": "sarahmei",
       "github_name": ""
     },
     "stime": "2016-03-19 15:50:00",
@@ -318,8 +318,8 @@
     "speaker": {
       "id": 13,
       "name": "Laurent Sansonetti",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/lrz.jpg",
+      "twitter_name": "lrz",
       "github_name": ""
     },
     "stime": "2016-03-20 09:45:00",
@@ -344,8 +344,8 @@
     "speaker": {
       "id": 14,
       "name": "Manohar Amrutkar",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/manohar.jpg",
+      "twitter_name": "_manoharaa",
       "github_name": ""
     },
     "stime": "2016-03-20 10:30:00",
@@ -370,8 +370,8 @@
     "speaker": {
       "id": 15,
       "name": "Anuja Ware and Shweta Kale",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/anuja.png",
+      "twitter_name": "anujaware",
       "github_name": ""
     },
     "stime": "2016-03-20 11:30:00",
@@ -397,8 +397,8 @@
     "speaker": {
       "id": 16,
       "name": "Vagmi Mudumbai",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/vagmi.jpg",
+      "twitter_name": "vagmi",
       "github_name": ""
     },
     "stime": "2016-03-20 11:55:00",
@@ -424,8 +424,8 @@
     "speaker": {
       "id": 17,
       "name": "Abhinandan Kothari and Chirag Aggarwal",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/abhinandan.jpg",
+      "twitter_name": "abhinandan",
       "github_name": ""
     },
     "stime": "2016-03-20 13:30:00",
@@ -450,8 +450,8 @@
     "speaker": {
       "id": 18,
       "name": "Jon McCartie",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/jon.png",
+      "twitter_name": "jmccartie",
       "github_name": ""
     },
     "stime": "2016-03-20 13:55:00",
@@ -476,8 +476,8 @@
     "speaker": {
       "id": 19,
       "name": "Rishi Jain",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/rishi.JPG",
+      "twitter_name": "jainrishi15",
       "github_name": ""
     },
     "stime": "2016-03-20 14:45:00",
@@ -502,8 +502,8 @@
     "speaker": {
       "id": 20,
       "name": "Charles Nutter",
-      "image_url": "",
-      "twitter_name": "",
+      "image_url": "http://rubyconfindia.org/assets/images/speakers/headius.jpg",
+      "twitter_name": "headius",
       "github_name": ""
     },
     "stime": "2016-03-20 14:45:00",

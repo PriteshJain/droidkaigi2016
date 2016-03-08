@@ -5,7 +5,7 @@
 
         <variable
             name="category"
-            type="io.github.droidkaigi.confsched.model.Category" />
+            type="sh.pritesh.rubyconfindia.confsched.model.Category" />
     </data>
 
     <TextView

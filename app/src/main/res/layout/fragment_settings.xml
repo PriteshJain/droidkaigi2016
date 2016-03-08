@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="io.github.droidkaigi.confsched.activity.MainActivity">
+    tools:context="sh.pritesh.rubyconfindia.confsched.activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -70,7 +70,7 @@
 
             <View style="@style/Border" />
 
-            <io.github.droidkaigi.confsched.widget.SettingSwitchRowView
+            <sh.pritesh.rubyconfindia.confsched.widget.SettingSwitchRowView
                 android:id="@+id/local_time_switch_row"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
 
             </RelativeLayout>
 
-            <io.github.droidkaigi.confsched.widget.SettingSwitchRowView
+            <sh.pritesh.rubyconfindia.confsched.widget.SettingSwitchRowView
                 android:id="@+id/notification_switch_row"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
 
             <View style="@style/Border" />
 
-            <io.github.droidkaigi.confsched.widget.SettingSwitchRowView
+            <sh.pritesh.rubyconfindia.confsched.widget.SettingSwitchRowView
                 android:id="@+id/heads_up_switch_row"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

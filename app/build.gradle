@@ -15,11 +15,11 @@ def versionPatch = 5
 def isCi = "true".equals(System.getenv("CI"))
 def preDexEnabled = "true".equals(System.getProperty("pre-dex", "true"))
 
-def packageName = "io.github.droidkaigi.confsched"
+def packageName = "sh.pritesh.rubyconfindia"
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
     dataBinding {
         enabled = true
     }
@@ -63,7 +63,7 @@ android {
         release {
             storeFile rootProject.file("release.keystore")
             storePassword System.getenv("KSTOREPWD")
-            keyAlias "droidkaigi"
+            keyAlias "rubyconfindia"
             keyPassword System.getenv("KEYPWD")
         }
     }

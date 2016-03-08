@@ -5,7 +5,7 @@
 
         <variable
             name="speaker"
-            type="io.github.droidkaigi.confsched.model.Speaker" />
+            type="sh.pritesh.rubyconfindia.confsched.model.Speaker" />
     </data>
 
     <LinearLayout

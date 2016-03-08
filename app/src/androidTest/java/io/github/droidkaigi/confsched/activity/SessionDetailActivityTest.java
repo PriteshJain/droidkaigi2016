@@ -1,4 +1,4 @@
-package io.github.droidkaigi.confsched.activity;
+package sh.pritesh.rubyconfindia.confsched.activity;
 
 /**
  * UI tests for {@link SessionDetailActivity} using Espresso.
@@ -22,12 +22,13 @@ import org.junit.runner.RunWith;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import io.github.droidkaigi.confsched.R;
-import io.github.droidkaigi.confsched.model.Category;
-import io.github.droidkaigi.confsched.model.Place;
-import io.github.droidkaigi.confsched.model.Session;
-import io.github.droidkaigi.confsched.model.Speaker;
-import io.github.droidkaigi.confsched.util.AppUtil;
+import sh.pritesh.rubyconfindia.confsched.R;
+import sh.pritesh.rubyconfindia.confsched.model.Category;
+import sh.pritesh.rubyconfindia.confsched.activity.SessionDetailActivity;
+import sh.pritesh.rubyconfindia.confsched.model.Place;
+import sh.pritesh.rubyconfindia.confsched.model.Session;
+import sh.pritesh.rubyconfindia.confsched.model.Speaker;
+import sh.pritesh.rubyconfindia.confsched.util.AppUtil;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;

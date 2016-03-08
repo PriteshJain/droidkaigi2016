@@ -4,13 +4,13 @@
 
     <data>
 
-        <import type="io.github.droidkaigi.confsched.util.DateUtil" />
+        <import type="sh.pritesh.rubyconfindia.confsched.util.DateUtil" />
 
-        <import type="io.github.droidkaigi.confsched.util.LocaleUtil" />
+        <import type="sh.pritesh.rubyconfindia.confsched.util.LocaleUtil" />
 
         <variable
             name="session"
-            type="io.github.droidkaigi.confsched.model.Session" />
+            type="sh.pritesh.rubyconfindia.confsched.model.Session" />
     </data>
 
     <RelativeLayout
@@ -85,7 +85,7 @@
                         android:background="@drawable/tag_language"
                         android:text="@{session.place.name}" />
 
-                    <io.github.droidkaigi.confsched.widget.CategoryView
+                    <sh.pritesh.rubyconfindia.confsched.widget.CategoryView
                         android:id="@+id/txt_category"
                         style="@style/Tag"
                         android:layout_marginEnd="@dimen/spacing_xsmall"
@@ -148,7 +148,7 @@
                     android:lines="1"
                     app:textRtlConsidered="@{session.speaker.name}" />
 
-                <io.github.droidkaigi.confsched.widget.CustomLikeButton
+                <sh.pritesh.rubyconfindia.confsched.widget.CustomLikeButton
                     android:id="@+id/btn_star"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

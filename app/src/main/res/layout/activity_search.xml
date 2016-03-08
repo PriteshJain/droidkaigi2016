@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".activity.SearchActivity">
+    tools:context="sh.pritesh.rubyconfindia.confsched.activity.SearchActivity">
 
     <RelativeLayout
         android:id="@+id/root_view"
@@ -10,7 +10,7 @@
         android:layout_height="match_parent">
 
 
-        <io.github.droidkaigi.confsched.widget.SearchToolbar
+        <sh.pritesh.rubyconfindia.confsched.widget.SearchToolbar
             android:id="@+id/search_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -27,7 +27,7 @@
             android:scrollbarStyle="outsideOverlay"
             android:scrollbars="vertical" />
 
-        <io.github.droidkaigi.confsched.widget.SearchPlacesAndCategoriesView
+        <sh.pritesh.rubyconfindia.confsched.widget.SearchPlacesAndCategoriesView
             android:id="@+id/search_places_and_categories_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
