@@ -41,7 +41,7 @@
     <string name="map_cd_building">South 4 bldg.</string>
     <string name="map_party_name">After party venue</string>
     <string name="map_party_building">Tokyo Tech Front (Kuramae Hall)</string>
-    <string name="map_address">Le Meridien Kochi, Kundannoor, Maradu, Kochi, Kerala 682304</string>
+    <string name="map_address">Le Meridien Kochi\nKundannoor, Maradu,\nErnakulam, Kerala 682304\nTel:(91)(484) 270 5777</string>
     <string name="map_fine_location_denied">Consider granting it in order to get the current location.</string>
     <string name="map_fine_location_never_askagain">Dialog never shows again.\nPlease go setting and grant it if you want to.</string>
     <string name="map_fine_location_rationale">Location permissions is needed to show your current position.</string>

@@ -158,15 +158,9 @@ public class MainActivity extends BaseActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         binding.drawer.closeDrawer(GravityCompat.START);
 
-        if (item.getItemId() == R.id.nav_questionnaire) {
-            new Handler().postDelayed(() -> {
-                AppUtil.showWebPage(this, getString(R.string.about_inquiry_url));
-            }, DRAWER_CLOSE_DELAY_MILLS);
-        } else {
-            Page page = Page.forMenuId(item);
-            toggleToolbarElevation(page.shouldToggleToolbar());
-            changePage(page.getTitleResId(), page.createFragment());
-        }
+        Page page = Page.forMenuId(item);
+        toggleToolbarElevation(page.shouldToggleToolbar());
+        changePage(page.getTitleResId(), page.createFragment());
 
         return true;
     }

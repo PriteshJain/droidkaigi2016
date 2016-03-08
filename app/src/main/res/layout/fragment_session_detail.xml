@@ -258,18 +258,18 @@
                     style="@style/Border"
                     android:layout_marginTop="@dimen/spacing" />
 
-                <TextView
-                    android:id="@+id/txt_feedback"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/clickable"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:padding="@dimen/spacing"
-                    android:text="@string/send_feedback"
-                    android:textColor="@color/grey600"
-                    android:textSize="@dimen/text_xlarge"
-                    app:categoryVividColor="@{session.category}" />
+                <!--<TextView-->
+                    <!--android:id="@+id/txt_feedback"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/clickable"-->
+                    <!--android:clickable="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="@dimen/spacing"-->
+                    <!--android:text="@string/send_feedback"-->
+                    <!--android:textColor="@color/grey600"-->
+                    <!--android:textSize="@dimen/text_xlarge"-->
+                    <!--app:categoryVividColor="@{session.category}" />-->
 
             </LinearLayout>
 

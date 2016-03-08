@@ -91,7 +91,7 @@ public class SessionDetailFragment extends BaseFragment {
             AlarmUtil.handleSessionAlarm(getActivity(), session);
         });
 
-        binding.txtFeedback.setOnClickListener(v -> activityNavigator.showFeedback(getActivity(), session));
+//        binding.txtFeedback.setOnClickListener(v -> activityNavigator.showFeedback(getActivity(), session));
 
         return binding.getRoot();
     }

@@ -18,7 +18,7 @@ import sh.pritesh.rubyconfindia.confsched.util.LocaleUtil;
 
 public class AboutFragment extends BaseFragment {
 
-    private static final String REP_TWITTER_NAME = "mhidaka";
+    private static final String REP_TWITTER_NAME = "gautamrege";
     private static final String CONF_TWITTER_NAME = "RubyConfIndia";
     private static final String CONF_FACEBOOK_NAME = "RubyConfIndia";
     private static final String CONF_REPOSITORY_NAME = "priteshjain/rubyconfindia2016";
@@ -71,7 +71,7 @@ public class AboutFragment extends BaseFragment {
                         startActivity(ContributorsActivity.createIntent(getContext()))
         );
         binding.txtYoutube.setOnClickListener(v -> {
-            AppUtil.showWebPage(getActivity(), "https://www.youtube.com/channel/UCgK6L-PKx2OZBuhrQ6mmQZw");
+            AppUtil.showWebPage(getActivity(), "https://www.youtube.com/channel/UCRNZy_ouJ1ai_uYwDBR2J5Q");
         });
         binding.txtVersion.setText(AppUtil.getVersionName(getContext()));
     }
