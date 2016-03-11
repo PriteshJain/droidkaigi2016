@@ -47,9 +47,9 @@
 
 
 # ----------------------------------------
-# DroidKaigi 2016
+# RubyConfIndia 2016
 # ----------------------------------------
--keep class io.github.droidkaigi.** { *; }
+-keep class sh.pritesh.rubyconfindia.** { *; }
 -keepnames class ** { *; }
 
 

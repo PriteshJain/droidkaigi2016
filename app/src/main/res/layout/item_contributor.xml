@@ -6,7 +6,7 @@
 
         <variable
             name="contributor"
-            type="io.github.droidkaigi.confsched.model.Contributor" />
+            type="sh.pritesh.rubyconfindia.confsched.model.Contributor" />
     </data>
 
 

@@ -41,7 +41,7 @@
     <string name="map_cd_building">South 4 bldg.</string>
     <string name="map_party_name">After party venue</string>
     <string name="map_party_building">Tokyo Tech Front (Kuramae Hall)</string>
-    <string name="map_address">Tokyo Institute of Technology, Ookayama Campus\nOokayama 2&#8211;12&#8211;1, Meguro City, Tokyo</string>
+    <string name="map_address">Le Meridien Kochi\nKundannoor, Maradu,\nErnakulam, Kerala 682304\nTel:(91)(484) 270 5777</string>
     <string name="map_fine_location_denied">Consider granting it in order to get the current location.</string>
     <string name="map_fine_location_never_askagain">Dialog never shows again.\nPlease go setting and grant it if you want to.</string>
     <string name="map_fine_location_rationale">Location permissions is needed to show your current position.</string>
@@ -53,25 +53,9 @@
     <string name="lang_ja_in_ar" translatable="false">اليابانية</string>
     <string name="lang_ko_in_ar" translatable="false">الكورية</string>
 
-    <string name="lang_ar_in_en" translatable="false">Arabic</string>
     <string name="lang_en_in_en" translatable="false">English</string>
-    <string name="lang_ja_in_en" translatable="false">Japanese</string>
-    <string name="lang_ko_in_en" translatable="false">Korean</string>
 
-    <string name="lang_ar_in_ja" translatable="false">アラビア語</string>
-    <string name="lang_en_in_ja" translatable="false">英語</string>
-    <string name="lang_ja_in_ja" translatable="false">日本語</string>
-    <string name="lang_ko_in_ja" translatable="false">韓国語</string>
-
-    <string name="lang_ar_in_ko" translatable="false">아라비아어</string>
-    <string name="lang_en_in_ko" translatable="false">영어</string>
-    <string name="lang_ja_in_ko" translatable="false">일본어</string>
-    <string name="lang_ko_in_ko" translatable="false">한국</string>
-
-    <string name="lang_ar">@string/lang_ar_in_en</string>
     <string name="lang_en">@string/lang_en_in_en</string>
-    <string name="lang_ja">@string/lang_ja_in_en</string>
-    <string name="lang_ko">@string/lang_ko_in_en</string>
 
     <string name="settings_language">Change language</string>
     <string name="settings_language_description">Choose language in this app. After changed, app will restart.</string>
@@ -83,13 +67,11 @@
     <string name="settings_local_time">Show local times</string>
     <string name="settings_local_time_description">Use your local time instead of the conference\’s local time.</string>
 
-    <string name="sponsor_category_platinum">Platinum Sponsors</string>
-    <string name="sponsor_category_video">Video Sponsors</string>
-    <string name="sponsor_category_food">Food Sponsors</string>
-    <string name="sponsor_category_normal">Supporters</string>
+    <string name="sponsor_category_gold">Gold Sponsors</string>
+    <string name="sponsor_category_silver">Silver Sponsors</string>
 
-    <string name="about_conference">About DroidKaigi</string>
-    <string name="about_conference_descriptions">For its 2016 edition, DroidKaigi will be held in two days and expects to see famous engineers from Japan and overseas giving talks.\n\nThere will be corporate exhibitions as well other than conference sessions.\n\nAndroid is being used in various situations and in many ways. Why don\'t you come and join us to share your knowledge and create better software?</string>
+    <string name="about_conference">About RubyConfIndia</string>
+    <string name="about_conference_descriptions">This year our event is a 2 day, single track event focussed on Ruby Language, Framework and Tools. While we welcome all kinds of talks, we would love to have more talks around Ruby and experience reports around big data with Ruby.</string>
     <string name="about_rep">REP: %1$s</string>
     <string name="about_social">Social</string>
     <string name="about_terms">Terms of Use</string>

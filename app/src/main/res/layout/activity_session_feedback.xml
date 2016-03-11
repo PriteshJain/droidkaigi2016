@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".activity.SessionFeedbackActivity">
+    tools:context="sh.pritesh.rubyconfindia.confsched.activity.SessionFeedbackActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                             style="@style/FeedbackTitle"
                             android:text="@string/session_feedback_relevance" />
 
-                        <io.github.droidkaigi.confsched.widget.NumberRatingBar
+                        <sh.pritesh.rubyconfindia.confsched.widget.NumberRatingBar
                             android:id="@+id/relevant_feedback_bar"
                             style="@style/FeedbackNumberRatingBar"
                             android:layout_below="@id/txt_feedback_relevance"
@@ -75,7 +75,7 @@
                             style="@style/FeedbackTitle"
                             android:text="@string/session_feedback_expectation_label_text" />
 
-                        <io.github.droidkaigi.confsched.widget.NumberRatingBar
+                        <sh.pritesh.rubyconfindia.confsched.widget.NumberRatingBar
                             android:id="@+id/as_expected_feedback_bar"
                             style="@style/FeedbackNumberRatingBar"
                             android:layout_below="@id/txt_feedback_expectation"
@@ -108,7 +108,7 @@
                             style="@style/FeedbackTitle"
                             android:text="@string/session_feedback_difficulty" />
 
-                        <io.github.droidkaigi.confsched.widget.NumberRatingBar
+                        <sh.pritesh.rubyconfindia.confsched.widget.NumberRatingBar
                             android:id="@+id/difficulty_feedback_bar"
                             style="@style/FeedbackNumberRatingBar"
                             android:layout_below="@id/txt_feedback_difficulty"
@@ -144,7 +144,7 @@
                             style="@style/FeedbackTitle"
                             android:text="@string/session_feedback_knowledgeable" />
 
-                        <io.github.droidkaigi.confsched.widget.NumberRatingBar
+                        <sh.pritesh.rubyconfindia.confsched.widget.NumberRatingBar
                             android:id="@+id/knowledgeable_feedback_bar"
                             style="@style/FeedbackNumberRatingBar"
                             android:layout_below="@id/txt_feedback_knowledgeable"

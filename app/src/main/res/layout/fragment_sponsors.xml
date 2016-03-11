@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="io.github.droidkaigi.confsched.activity.MainActivity">
+    tools:context="sh.pritesh.rubyconfindia.confsched.activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,34 +16,18 @@
 
             <TextView
                 style="@style/SponsorCategory"
-                android:text="@string/sponsor_category_platinum" />
+                android:text="@string/sponsor_category_gold" />
 
             <org.apmem.tools.layouts.FlowLayout
-                android:id="@+id/platinum_container"
+                android:id="@+id/gold_container"
                 style="@style/SponsorImagesContainer" />
 
             <TextView
                 style="@style/SponsorCategory"
-                android:text="@string/sponsor_category_video" />
+                android:text="@string/sponsor_category_silver" />
 
             <org.apmem.tools.layouts.FlowLayout
-                android:id="@+id/video_container"
-                style="@style/SponsorImagesContainer" />
-
-            <TextView
-                style="@style/SponsorCategory"
-                android:text="@string/sponsor_category_food" />
-
-            <org.apmem.tools.layouts.FlowLayout
-                android:id="@+id/foods_container"
-                style="@style/SponsorImagesContainer" />
-
-            <TextView
-                style="@style/SponsorCategory"
-                android:text="@string/sponsor_category_normal" />
-
-            <org.apmem.tools.layouts.FlowLayout
-                android:id="@+id/normal_container"
+                android:id="@+id/silver_container"
                 style="@style/SponsorImagesContainer"
                 android:layout_marginBottom="@dimen/spacing_large" />
 

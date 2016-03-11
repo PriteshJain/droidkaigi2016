@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="io.github.droidkaigi.confsched.fragment.SessionsFragment">
+    tools:context="sh.pritesh.rubyconfindia.confsched.fragment.SessionsFragment">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                     app:tabTextColor="@color/white_alpha_40"
                     tools:targetApi="lollipop"/>
 
-            <io.github.droidkaigi.confsched.widget.RtlViewPager
+            <sh.pritesh.rubyconfindia.confsched.widget.RtlViewPager
                 android:id="@+id/view_pager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

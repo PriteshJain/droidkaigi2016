@@ -1,4 +1,4 @@
-package io.github.droidkaigi.confsched.util;
+package sh.pritesh.rubyconfindia.confsched.util;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 import java.util.Arrays;
 import java.util.Locale;
 
-import io.github.droidkaigi.confsched.prefs.DefaultPrefsSchema;
+import sh.pritesh.rubyconfindia.confsched.prefs.DefaultPrefsSchema;
+import sh.pritesh.rubyconfindia.confsched.util.LocaleUtil;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,4 +1,4 @@
-package io.github.droidkaigi;
+package sh.pritesh.rubyconfindia;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

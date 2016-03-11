@@ -1,9 +1,11 @@
-package io.github.droidkaigi.confsched.util;
+package sh.pritesh.rubyconfindia.confsched.util;
 
 import android.support.test.runner.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import sh.pritesh.rubyconfindia.confsched.util.AppUtil;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -6,7 +6,7 @@
 
         <variable
             name="searchResult"
-            type="io.github.droidkaigi.confsched.model.SearchResult" />
+            type="sh.pritesh.rubyconfindia.confsched.model.SearchResult" />
     </data>
 
     <RelativeLayout

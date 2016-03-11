@@ -2,17 +2,17 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="io.github.droidkaigi.confsched.activity.SessionDetailActivity">
+    tools:context="sh.pritesh.rubyconfindia.confsched.activity.SessionDetailActivity">
 
     <data>
 
         <import type="android.view.View" />
 
-        <import type="io.github.droidkaigi.confsched.util.DateUtil" />
+        <import type="sh.pritesh.rubyconfindia.confsched.util.DateUtil" />
 
         <variable
             name="session"
-            type="io.github.droidkaigi.confsched.model.Session" />
+            type="sh.pritesh.rubyconfindia.confsched.model.Session" />
     </data>
 
     <android.support.design.widget.CoordinatorLayout
@@ -127,7 +127,7 @@
                         android:background="@drawable/tag_language"
                         android:text="@{session.place.name}" />
 
-                    <io.github.droidkaigi.confsched.widget.CategoryView
+                    <sh.pritesh.rubyconfindia.confsched.widget.CategoryView
                         android:id="@+id/txt_category"
                         style="@style/Tag"
                         android:layout_marginEnd="@dimen/spacing_small"
@@ -191,7 +191,7 @@
                         android:gravity="center_vertical"
                         app:textRtlConsidered="@{session.speaker.name}" />
 
-                    <io.github.droidkaigi.confsched.widget.SpeakerSnsIconsView
+                    <sh.pritesh.rubyconfindia.confsched.widget.SpeakerSnsIconsView
                         android:id="@+id/speaker_sns_icons"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -258,18 +258,18 @@
                     style="@style/Border"
                     android:layout_marginTop="@dimen/spacing" />
 
-                <TextView
-                    android:id="@+id/txt_feedback"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/clickable"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:padding="@dimen/spacing"
-                    android:text="@string/send_feedback"
-                    android:textColor="@color/grey600"
-                    android:textSize="@dimen/text_xlarge"
-                    app:categoryVividColor="@{session.category}" />
+                <!--<TextView-->
+                    <!--android:id="@+id/txt_feedback"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/clickable"-->
+                    <!--android:clickable="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="@dimen/spacing"-->
+                    <!--android:text="@string/send_feedback"-->
+                    <!--android:textColor="@color/grey600"-->
+                    <!--android:textSize="@dimen/text_xlarge"-->
+                    <!--app:categoryVividColor="@{session.category}" />-->
 
             </LinearLayout>
 
